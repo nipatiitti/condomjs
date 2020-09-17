@@ -1,0 +1,10 @@
+{
+  "name": "Condomjs",
+  "version": "1.0.0",
+  "description": "Safe and thin wrapper for React when you need to use Penis.js",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/nipatiitti/condomjs",
+  "author": "Niilo Jaakkola",
+  "license": "MIT",
+  "private": false
+}
