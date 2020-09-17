@@ -1,10 +1,30 @@
 {
-  "name": "Condomjs",
-  "version": "1.0.0",
-  "description": "Safe and thin wrapper for React when you need to use Penis.js",
-  "main": "./lib/index.js",
-  "repository": "https://github.com/nipatiitti/condomjs",
-  "author": "Niilo Jaakkola",
-  "license": "MIT",
-  "private": false
+    "name": "condomjs",
+    "version": "1.0.0",
+    "description": "Safe and thin wrapper for React when you need to use Penis.js",
+    "main": "./lib/index.js",
+    "repository": "https://github.com/nipatiitti/condomjs",
+    "author": "Niilo Jaakkola",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "webpack --mode production"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-react": "^7.10.4",
+        "babel-loader": "^8.1.0",
+        "prop-types": "^15.7.2",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "dependencies": {
+        "penis": "edankwan/penis.js"
+    }
 }
