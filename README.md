@@ -1,6 +1,6 @@
 # CondomJS
 
-Safe and thin wrapper component for React when you need to use Penis.js
+Safe and thin wrapper component for React when you need to use [penis.js](https://github.com/edankwan/penis.js)
 
 If `B==D` (or `B===D` with `isHard` prop) it will render the Children otherwise it will render nothing
 
